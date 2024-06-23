@@ -1,18 +1,36 @@
 
+# ContaBanco - Desafio 
 
-# Dio - Trilha Java Básico
+## Sintaxe - Desafio
+Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
 
-Diretório destinado aos desafios de código do bootecamp Santander 2024 (Backend Java) pela DIO.
-
-## POO - Desafio 
-
-Modelagem e Diagramação de um Componente iPhone
-
+  1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+  2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
 
 
+###### Revise sobre regras de declaração de variáveis
+| Atributo |    Tipo   | Exemplo |
+| -------- |  -------- | ------- |
+|  Numero  |  Inteiro  |   1021  |
+| Agencia  |   Texto   |  067-8  |
+|Nome Cliente| Texto   |MARIO ANDRADE|
+|  Saldo   |  Decimal  |  237.48 |
 
-### Diagrama de classes
+###### Revise sobre terminal, main args e a classe Scanner
 
-[![](https://mermaid.ink/img/pako:eNp1U01vm0AQ_SurObUqsSAGAiiKFLWXSm0UtVEPFZfJ7hivinfQAlFi5P_exXZdwgcXYObtezNvdjqQrAgykCXW9ReNhcVdboR79OOWDYmrqzvxgyrLqm3Yfm9rLbE8IW5vv5qG7AYl3S2CBjT3FVoqt_xEJW3YaMlzPEuoAdEDvlCBiu3xnKFmjmcGNCTKxKfaKUjNBs8Vf_g4AjQsF3MVtvX_pBAT9g3uyX7TBUrkyWlsyKhBWvQE7xDada7RfmZrSfMv3vccIwy96mdtH7HQZlogKn1q7oFf8P55BtC0WOo9jgj-qRxvxHSqnRCXYsWyh2LWPTH27RQ-DBWn8x9JzhkrppZeErNOTmQn16V7JzpntVg2WSzaewAPdmR3qJVbu64P5tBsaUc5ZO5Tof2TQ256HDrff74ZCVljW_LAcltsIdtgWbu_tlKu5_POXqKkdD-s81b3Lw8qNJB18ArZdXSzSpPAD5MoWadJGHrwBlkQRKt1HCdRGq5jfx0F8cGDPbNj9VdxFEdpGvnBTRimfnx9pPt9TPZVHf4CLZlb4Q?type=png)](http://localhost:3000/edit#pako:eNp1U01vm0AQ_SurObUqsSAGAiiKFLWXSm0UtVEPFZfJ7hivinfQAlFi5P_exXZdwgcXYObtezNvdjqQrAgykCXW9ReNhcVdboR79OOWDYmrqzvxgyrLqm3Yfm9rLbE8IW5vv5qG7AYl3S2CBjT3FVoqt_xEJW3YaMlzPEuoAdEDvlCBiu3xnKFmjmcGNCTKxKfaKUjNBs8Vf_g4AjQsF3MVtvX_pBAT9g3uyX7TBUrkyWlsyKhBWvQE7xDada7RfmZrSfMv3vccIwy96mdtH7HQZlogKn1q7oFf8P55BtC0WOo9jgj-qRxvxHSqnRCXYsWyh2LWPTH27RQ-DBWn8x9JzhkrppZeErNOTmQn16V7JzpntVg2WSzaewAPdmR3qJVbu64P5tBsaUc5ZO5Tof2TQ256HDrff74ZCVljW_LAcltsIdtgWbu_tlKu5_POXqKkdD-s81b3Lw8qNJB18ArZdXSzSpPAD5MoWadJGHrwBlkQRKt1HCdRGq5jfx0F8cGDPbNj9VdxFEdpGvnBTRimfnx9pPt9TPZVHf4CLZlb4Q)
-```
+3. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+* Programa: "Por favor, digite o número da Agência !"
+* Usuário: 1021 (depois ENTER para o próximo campo)
+
+###### Revise sobre concatenação e classe String com método concat.
+
+
+4. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+    
+*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+
+Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+
+
+
 
